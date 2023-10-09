@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 950px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0,1, green, blue, alpha);
+}
+.container .left_side
+{
+    position: relative;
+    background: #92A8D1;
+    /* box-shadow: rgb(146, 168, 209); */
+    padding: 40px;
+}
+
+.profiletext h2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.6em;
+    color: #363945;
+    
+    
+    
+}
+.profiletext span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.profiletext .imgbx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 15px;
+}
+.profiletext .imgbx img{
+    height: 250px;
+    width: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 115%;
+    object-fit: cover;
+}
+.container .right_side{
+    position: relative;
+    max-width: 1000px;
+    background-color: white;
+    padding: 40px;
+}
+.Contactinfo{
+    padding-top: 15px;
+}
+
+.title{
+    color: #003147;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;   
+}
+
+.Contactinfo ul {
+    position: relative;
+}
+.container ul li{
+    position: relative;
+    list-style-type: none;
+    margin: 10px 0;
+    color: black;
+    font-weight: 200;
+}
+
+.container ul li .icon{
+    display: inline-block;
+    font-size: 18px;
+}
+.Contactinfo_education li{
+    margin-bottom: 15px;
+}
+
+.Contactinfo_education h5{
+    color: #003147;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.Contactinfo_language .Percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    display: block;
+    margin-top: 5px;
+    color: #081921; 
+
+}
+.Contactinfo_language .Percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100% ;
+    background: #03a9f4;
+}
+.about .title2{
+    color:#003147;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 300 ;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+.about p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bio .Aww{
+    margin-top: 10px;
+    color:#003147;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 300 ;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+
+.bio ul li h3{
+    color:#003147;
+    margin-bottom: 2px;
+
+}
+.bio ul li p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.nt .title3{
+    margin-top: 10px;
+    color:#003147;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 300 ;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+
+.nt ul li h3{
+    color:#003147;
+    margin-bottom: 2px;
+}
+.nt ul li p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    margin-top: 8px;
+    margin-bottom: 5px;
+
+}
+
+.t .skills{
+    margin-top: 23px;
+    color:#003147;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 300 ;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+.t ul li {
+     color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+.t .Percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    display: block;
+    margin-top: 5px;
+    color: #081921; 
+
+}
+.t .Percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100% ;
+    background: #03a9f4;
+}
+.i .int {
+    margin-top: 10px;
+    color:#003147;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 300 ;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;  
+}
+.i ul {
+    position: relative;
+}
+.i ul li{
+    list-style-type: none;
+    margin: 10px 0;
+    color: black;
+    font-weight: 200;
+    display: flex;
+}
+
+.i .icon{
+    display: inline-block;
+    font-size: 18px;
+}
+.i ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.i ul li{
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.i ul li .fa{
+    color: #03a9f4;
+    font-size: 18px;
+    width: 20px;
+    margin-left: 5px;
+
+}
